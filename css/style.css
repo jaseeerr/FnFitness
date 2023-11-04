@@ -811,7 +811,7 @@ p {
 * ----------------------------------------------------------------------------------------
 */
 .count_overlay{
-	background: rgba(7, 1, 90, 0.6) none repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0.687) none repeat scroll 0 0;
     padding: 60px 0;
 }
 .count h3{
