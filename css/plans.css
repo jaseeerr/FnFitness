@@ -104,12 +104,17 @@ body {
 }
 
 .plan:nth-child(1) {
-    background: linear-gradient(145deg, #444, #666);
+    background: linear-gradient(to right, #000000, #4d4d4d); /* Black to gray */
+}
+
+.plan.best-deal {
+    background: linear-gradient(to right, #000000, #b8860b); /* Black to gold */
 }
 
 .plan:nth-child(3) {
-    background: linear-gradient(145deg, #333366, #0000ff);
+    background: linear-gradient(to right, #000000, #3300ff); /* Dark blue to lighter blue */
 }
+
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
